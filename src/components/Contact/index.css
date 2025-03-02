@@ -1,0 +1,70 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    margin-left: 30px;
+    /* background-color: rgb(4, 48, 123); */
+    background-color: rgb(49, 39, 85);
+    width: 60%;
+    border-radius: 10px;
+}
+.form-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+.contact-head1{
+    font-family: "Roboto";
+    color: white;
+
+}
+.contact-head2{
+    font-family: "Roboto";
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 20px;
+    
+}
+label{
+    font-family:  "Roboto";
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.input-box{
+    width: 90%;
+    height: 40px;
+    margin-bottom: 15px;
+    border: 0px solid ;
+    border-radius: 4px;
+    background-color: rgb(130, 130, 231);
+    padding: 5px;
+    color: #181818;
+    outline: none;
+}
+.input-box::placeholder{
+    color: #bfbfca;
+    font-size: 14px;
+}
+
+.input-box1::placeholder{
+    color: #bfbfca;
+    font-size: 14px;
+}
+
+.input-box1{
+    width: 90%;
+    height: 80px;
+    margin-bottom: 15px;
+    border: 0px solid ;
+    border-radius: 4px;
+    background-color: rgb(130, 130, 231);
+    padding: 5px;
+    outline: none;
+
+}

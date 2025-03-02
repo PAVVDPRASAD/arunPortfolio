@@ -1,0 +1,53 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background-color: #282c34;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 10px 35px;
+  }
+  
+  .navbar.light {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .theme-toggle {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .logo_letter{
+    width: 75px;
+    cursor: pointer;
+    height: 75px;
+    border-radius: 37px;
+  }
+
+  .tab-names:hover{
+    color: #2f3033;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .tab-names{
+    /* color: #070707; */
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+  }

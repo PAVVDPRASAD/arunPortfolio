@@ -1,0 +1,17 @@
+.about{
+    text-align: start;
+    padding-left: 30px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-discription{
+    font-family: 'Times New Roman', Times, serif;
+    width: 70%;
+    /* padding-left: 20px; */
+}
+.about-heading{
+    font-weight: bold;
+
+}

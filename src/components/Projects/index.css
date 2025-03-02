@@ -1,0 +1,55 @@
+.projects{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 30px;
+
+}
+
+.project-list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style-type: none;
+    padding-left: 0px;
+    flex-wrap: wrap;
+}
+
+.project-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    width: 30%;
+    background-color: rgb(49, 39, 85);
+    border-radius: 10px;
+    margin-right: 30px;
+
+}
+.project-image-cont{
+    background-color: white;
+   border: 1px solid #181818;
+   border-radius: 10px 10px 0px 0px;
+
+}
+.project-image{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+
+}
+.project-heading{
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: 600;
+    color: rgb(118, 212, 243);
+}
+.project-discription{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    width: 100%;
+    text-align: start;
+    color: #ffffff;
+}
