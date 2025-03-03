@@ -68,3 +68,10 @@ label{
     outline: none;
 
 }
+
+@media screen and (max-width:767px) {
+    .contact{
+    width: 80%;
+
+    }
+}

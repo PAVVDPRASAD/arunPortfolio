@@ -6,7 +6,7 @@
     align-items: center;
     text-align: start;
     transition: background-color 0.3s, color 0.3s;
-    font-size: 33px;
+    font-size: 23px;
     padding-left: 30px;
   }
 
@@ -46,4 +46,22 @@
 .discription-role{
   font-size: 24px;
   font-family: 'Times New Roman', Times, serif;
+}
+
+
+@media screen and (max-width:767px) {
+  .name_style{
+    font-size: 30px;
+
+  }
+  .discription-role{
+    font-size: 18px;
+  }
+  .cta-button {
+    font-size: 12px;
+
+  }
+  .home {
+    height: 80vh;
+  }
 }

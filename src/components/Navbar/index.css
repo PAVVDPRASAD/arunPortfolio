@@ -51,3 +51,38 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
   }
+
+  .menu-bar{
+    display: none;
+  }
+  .menu-button{
+    border-width: 0px;
+  }
+  .mobile-nav-links{
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  
+@media screen and (max-width:767px) {
+  .menu-bar{
+    display: block;
+    font-size: 30px;
+  }
+  .nav-links{
+    display: none;
+  }
+  .navbar{
+    justify-content: space-between;
+    margin: 0px;
+
+  }
+  .logo_letter{
+    width: 60px;
+    cursor: pointer;
+    height: 60px;
+    border-radius: 30px;
+  }
+  .theme-toggle1 {
+    display: none;
+  }
+}
