@@ -1,8 +1,18 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { motion } from 'framer-motion';
 import './index.css';
 
 function Home({ theme }) {
+
+  useEffect(() => {
+    document.title = "Arun Pechetti";
+
+    const favicon = document.querySelector("link[rel='icon']");
+    if (favicon) {
+      favicon.href = 'https://res.cloudinary.com/ddyogx5yr/image/upload/v1740813549/2ourrfa7_fhisux.png'
+    }
+  }, []);
+
   return (
     <motion.section
       id="home"
