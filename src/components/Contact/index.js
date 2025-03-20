@@ -8,7 +8,8 @@ import './index.css';
 
 const Contact = () => {
   return (
-    <div id="contact" className="contact">
+    <div className='d-flex justify-content-center mt-5'>
+      <div id="contact" className="contact">
       <p className='contact-head1'>GET IN TOUCH</p>
       <h2 className='contact-head2'>Contact Me</h2>
       <form className='form-details'>
@@ -21,6 +22,7 @@ const Contact = () => {
         <button className='btn btn-success text-white' type="submit">Send Message</button>
       </form>
     </div> 
+    </div>
   );
 }
 

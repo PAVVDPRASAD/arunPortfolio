@@ -8,6 +8,12 @@
     transition: background-color 0.3s, color 0.3s;
     margin: 10px 35px;
   }
+  .navbar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
   
   .navbar.light {
     background-color: #f4f4f4;
@@ -28,6 +34,12 @@
   .theme-toggle {
     background: none;
     border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .theme-toggle1 {
+    background: none;
+    border: none;
     font-size: 2rem;
     cursor: pointer;
   }
@@ -39,10 +51,10 @@
     border-radius: 37px;
   }
 
-  .tab-names:hover{
+  li:hover{
     color: #2f3033;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 17px;
   }
   
   .tab-names{
@@ -62,6 +74,7 @@
   .mobile-nav-links{
     list-style-type: none;
     padding-left: 0px;
+    
   }
   
 @media screen and (max-width:767px) {

@@ -8,6 +8,7 @@
     transition: background-color 0.3s, color 0.3s;
     font-size: 23px;
     padding-left: 30px;
+   
   }
 
   .home.light {
@@ -21,19 +22,24 @@
   }
   
   .cta-button {
-    padding: 10px 20px;
     background-color: #282c34;
     border: none;
     border-radius: 5px;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
-    font-size: 16px;
-
+    font-size: 14px;
+    margin-right: 15px;
+    height: 35px;
+    width: 120px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
   }
   
   .cta-button:hover {
-    background-color: rgb(43, 101, 43);
+    background-color: rgb(3, 98, 122);
     font-weight: bold;
     color: rgb(217, 247, 247);
   }
@@ -44,7 +50,7 @@
     font-family: "Roboto";
   }
 .discription-role{
-  font-size: 24px;
+  font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
 }
 
